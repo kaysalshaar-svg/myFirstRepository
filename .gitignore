@@ -1,0 +1,23 @@
+# ── Node / React frontend ─────────────────────────────────────────────────
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# ── Laravel backend ───────────────────────────────────────────────────────
+laravel_backend/vendor/
+laravel_backend/.env
+laravel_backend/storage/logs/*.log
+laravel_backend/storage/framework/cache/
+laravel_backend/storage/framework/sessions/
+laravel_backend/storage/framework/views/
+laravel_backend/bootstrap/cache/*.php
+laravel_backend/database/database.sqlite
+
+# ── OS / IDE ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
